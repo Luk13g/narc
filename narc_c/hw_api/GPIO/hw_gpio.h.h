@@ -129,12 +129,12 @@ void hw_gpio_pin_set(hw_gpio_ports_t port, hw_gpio_pins_t pin);
 void hw_gpio_pin_reset(hw_gpio_ports_t port, hw_gpio_pins_t pin);
 hw_gpio_pin_values_t hw_gpio_pin_read(hw_gpio_ports_t port, hw_gpio_pins_t pin);
 void hw_gpio_pin_toggle(hw_gpio_ports_t port, hw_gpio_pins_t pin);
-void hw_gpio_pin_set_mode(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_modes_t modes)
-void hw_gpio_pin_set_speed(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_speed_t speed)
-void hw_gpio_pin_set_topology(hw_gpio_ports_t port, hw_gpio_pins_t pin,hw_gpio_pin_topology_t topology)
-void hw_gpio_pin_set_pupd(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_pupd_t pin_pupd)
-void hw_gpio_pin_set_alternate_function_low(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_alternate_function_low_t pin_alternate_function_low)
-void hw_gpio_pin_set_alternate_function_high(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_alternate_function_high_t pin_alternate_function_high)
+void hw_gpio_pin_set_mode(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_modes_t modes);
+void hw_gpio_pin_set_speed(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_speed_t speed);
+void hw_gpio_pin_set_topology(hw_gpio_ports_t port, hw_gpio_pins_t pin,hw_gpio_pin_topology_t topology);
+void hw_gpio_pin_set_pupd(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_pupd_t pin_pupd);
+void hw_gpio_pin_set_alternate_function_low(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_alternate_function_low_t pin_alternate_function_low);
+void hw_gpio_pin_set_alternate_function_high(hw_gpio_ports_t port, hw_gpio_pins_t pin, hw_gpio_pin_alternate_function_high_t pin_alternate_function_high);
 
 #ifdef __cplusplus
 }
